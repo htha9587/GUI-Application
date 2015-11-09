@@ -5,7 +5,7 @@ import gui.view.GUIView;
  * Controller for Simple GUI App.
  * @author htha9587
  *11/09/15
- *Version 1.4
+ *Version 1.5
  */
 
 public class GUIController 
