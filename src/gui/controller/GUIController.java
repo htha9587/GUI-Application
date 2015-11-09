@@ -5,6 +5,7 @@ import gui.view.GUIView;
  * Controller for Simple GUI App.
  * @author htha9587
  *11/09/15
+ *Version 1.1
  */
 
 public class GUIController 
@@ -20,7 +21,7 @@ public class GUIController
 	
 	public GUIController()
 	{
-		baseFrame = new GUIView();
+		baseFrame = new GUIView(this);
 	}
 	
 	public void start()
