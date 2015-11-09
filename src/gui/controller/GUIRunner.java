@@ -4,7 +4,7 @@ package gui.controller;
  * Starts Simple GUI.
  * @author htha9587
  *11/09/15
- *Version 1.2
+ *Version 1.4
  */
 
 public class GUIRunner 

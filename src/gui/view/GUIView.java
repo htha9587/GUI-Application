@@ -4,7 +4,7 @@ import javax.swing.JFrame;
 import gui.controller.GUIController;
 /**
  * Creates JFrame for Simple GUI App.
- * Version 1.2
+ * Version 1.4
  * @author htha9587
  *11/09/15 Added reference to GUIPanel.
  */
