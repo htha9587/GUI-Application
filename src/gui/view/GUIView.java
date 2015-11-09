@@ -22,11 +22,16 @@ public class GUIView extends JFrame
 		basePanel = new GUIPanel(baseFrame); // Creates instance of GUIPanel with reference to controller.
 		setUpFrame();
 	}
+	/**
+	 * Helper method to setup frame and its structure.
+	 */
+	
 	
 	private void setUpFrame()
 	{
 		this.setContentPane(basePanel);   // Required panel set for GUIFrame.
 		this.setResizable(false);  // A good idea, but not needed.
+		this.setTitle("My window app");  //Sets title.
 		this.setSize(400,400);     //Sets the size.
 		this.setVisible(true);     //Must be last line in setUpFrame method.
 	}
